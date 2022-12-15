@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/module-2.iml" filepath="$PROJECT_DIR$/.idea/module-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss1_java_preview/ss1_java.iml" filepath="$PROJECT_DIR$/ss1_java_preview/ss1_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss2_loop_java/ss2_loop_java.iml" filepath="$PROJECT_DIR$/ss2_loop_java/ss2_loop_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_java/ss3_array_java.iml" filepath="$PROJECT_DIR$/ss3_array_java/ss3_array_java.iml" />
     </modules>
   </component>
 </project>
