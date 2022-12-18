@@ -6,7 +6,6 @@ public class SumColArray {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhap vao so dong cua ma tran :");
         m = scanner.nextInt();
-        ;
         System.out.println("Nhap vao so cot cua ma tran : ");
         n = scanner.nextInt();
         int[][] array = new int[m][n];
