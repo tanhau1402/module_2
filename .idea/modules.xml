@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/ss4_class_object/ss4_class_object.iml" filepath="$PROJECT_DIR$/ss4_class_object/ss4_class_object.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss5_accessmodifier/ss5_accessmodifier.iml" filepath="$PROJECT_DIR$/ss5_accessmodifier/ss5_accessmodifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss6_inheritance/ss6_inheritance.iml" filepath="$PROJECT_DIR$/ss6_inheritance/ss6_inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss7_abstract_interface/ss7_abstract_interface.iml" filepath="$PROJECT_DIR$/ss7_abstract_interface/ss7_abstract_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss6_inheritance/test/test.iml" filepath="$PROJECT_DIR$/ss6_inheritance/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/text/text.iml" filepath="$PROJECT_DIR$/text/text.iml" />
     </modules>
   </component>

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Point {
     public static class Point2D {
         private float x;
@@ -24,20 +26,27 @@ public class Point {
             this.y = y;
         }
 
+        public void Point(float x, float y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        public void Point() {
+
+        }
+
         public void setXy(float x, float y) {
             this.x = x;
             this.y = y;
         }
 
-         public float getXy() {
-
-         }
-        public String toString() {
-            return "x : " + this.x + " y: " + this.y;
+        public float[] getXy() {
+            float[] array = {this.x, this.y};
+            return array;
         }
 
-        public Point2D() {
-
+        public String toString() {
+            return " x :" + this.x + " y : " + this.y;
         }
     }
 
@@ -49,10 +58,6 @@ public class Point {
             this.z = z;
         }
 
-        public Point3D() {
-
-        }
-
         public float getZ() {
             return z;
         }
@@ -62,8 +67,14 @@ public class Point {
         }
 
         @Override
+        public float[] getXy() {
+            float[] array = {this.getX(), this.getY(), this.z};
+            return array;
+        }
+
+        @Override
         public String toString() {
-            return "X : " + this.getX() + "y :" + this.getY() + "z : " + this.getZ();
+            return super.toString() + " Z : " + this.z;
         }
     }
 
@@ -71,6 +82,8 @@ public class Point {
         Point2D point2D = new Point2D(3, 4);
         Point3D point3D = new Point3D(3, 4, 5);
         System.out.println(point2D.toString());
+        System.out.println(Arrays.toString(point2D.getXy()));
         System.out.println(point3D.toString());
+        System.out.println(Arrays.toString(point3D.getXy()));
     }
 }
