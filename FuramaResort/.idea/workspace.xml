@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea31d4fc-3e41-4c81-a583-1a4d4709c3a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7_abstract_interface/src/Animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7_abstract_interface/src/Animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7_abstract_interface/src/Animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7_abstract_interface/src/Animal/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss7_abstract_interface/src/edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_cleancode_refactoring/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_cleancode_refactoring/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_cleancode_refactoring/src/exercise/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_cleancode_refactoring/src/pratice/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_cleancode_refactoring/src/pratice/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_cleancode_refactoring/ss8_cleancode_refactoring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_arraylist_linkedlist/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss9_arraylist_linkedlist/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/src/DayOfMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/src/Student/ArrayStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/src/Student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../text/src/Student/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2MJmhoZY3jLth4reTurHIK6yzL6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea31d4fc-3e41-4c81-a583-1a4d4709c3a5" name="Changes" comment="" />
+      <created>1677494180784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677494180784</updated>
+      <workItem from="1677494182137" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
