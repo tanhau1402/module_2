@@ -10,10 +10,14 @@ public class SumColArray {
         n = scanner.nextInt();
         int[][] array = new int[m][n];
         System.out.println("Nhap vao cac phan tu cua ma tran : ");
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                System.out.println("Array[" + i + "][" + j + "] = ");
-                array[i][j] = scanner.nextInt();
+        {
+            int i = 0;
+            while (i < m) {
+                for (int j = 0; j < n; j++) {
+                    System.out.println("Array[" + i + "][" + j + "] = ");
+                    array[i][j] = scanner.nextInt();
+                }
+                i++;
             }
         }
         System.out.println("Ma tran vua nhap : ");
@@ -25,20 +29,17 @@ public class SumColArray {
         }
         System.out.println("Nhap vao cot can tinh tong : ");
         int choice = scanner.nextInt();
-        switch (choice) {
-            case 0:
                 for (int i = 0; i < m; i++) {
                     for (int j = 0; j < n; j++) {
-                        if (j == 0) {
+                        if (j == choice) {
                             sum += array[i][j];
                         }
                     }
                 }
-                System.out.println("sum  col 0 : " + sum);
-                break;
+                System.out.println("sum  col " + choice + " = " + sum);
         }
 
     }
 
-}
+
 

@@ -20,8 +20,8 @@ public class FindMaxElement {
             i++;
         }
         System.out.println("Property list : ");
-        for (int j = 0; j < array.length; j++) {
-            System.out.print(array[j] + " ");
+        for (int k : array) {
+            System.out.print(k + " ");
         }
         int max = array[0];
         int index = 1;

@@ -5,11 +5,11 @@ public class DeleteElement {
     public static void main(String[] args) {
         int[] array = {1, 3, 5, 6, 7, 9};
         Scanner scanner = new Scanner(System.in);
-        System.out.println("nhap phan tu can xoa : ");
+        System.out.println("enter element to delete : ");
         int deleteElement = scanner.nextInt();
         int indexToDelete = findIndex(array, deleteElement);
         if (indexToDelete == -1) {
-            System.out.println("Phan tu khong o trong mang");
+            System.out.println("Not find element !");
         } else {
             array = deleteElement(array, indexToDelete);
         }
@@ -30,12 +30,9 @@ public class DeleteElement {
 
     static int[] deleteElement(int[] array, int index) {
         int[] newArray = new int[array.length - 1];
-        for (int i = 0; i < index; i++) {
-            newArray[i] = array[i];
-        }
-        for (int i = index + 1; i < array.length; i++) {
-            newArray[i - 1] = array[i];
-        }
+        if (index >= 0) System.arraycopy(array, 0, newArray, 0, index);
+        if (array.length - (index + 1) >= 0)
+            System.arraycopy(array, index + 1, newArray, index + 1 - 1, array.length - (index + 1));
         return newArray;
     }
 }
