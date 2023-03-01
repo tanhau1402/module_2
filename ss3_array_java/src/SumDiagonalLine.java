@@ -29,7 +29,7 @@ public class SumDiagonalLine {
                 }
             }
         }
-        System.out.println("Tong cac phan tu tren duong cheo chinh la : " + sum);
+        System.out.println("Tong cac phan tu tren duong cheo  la : " + sum);
     }
 
 
